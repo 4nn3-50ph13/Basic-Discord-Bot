@@ -28,7 +28,7 @@ namespace DiscordBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "ODA5NjAxNTAwMDQ4Nzg1NDI4.YCXeJw.6KMonpjt4YPhiySd-FFDK2BevAI";
+            string token = ""; //[Token removed]
 
             _client.Log += _client_Log;
 
